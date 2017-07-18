@@ -1,0 +1,8 @@
+<resources>
+    <!--Project-->
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="activity_content_padding">24dp</dimen>
+    <dimen name="range_picker_circle_size">30dp</dimen>
+    <!--Filtering-->
+    <dimen name="filtering_view_padding">14dp</dimen>
+</resources>

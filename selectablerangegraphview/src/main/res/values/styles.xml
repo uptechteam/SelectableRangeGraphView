@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FilterViewStyle">
+        <item name="circleDrawable">@drawable/range_picker_circle</item>
+        <item name="selectedPlotColor">@color/selected_plot_color</item>
+        <item name="unselectedPlotColor">@color/unselected_plot_color</item>
+        <item name="selectedRangeColor">@color/selected_range_indicator_color</item>
+        <item name="unselectedRangeColor">@color/unselected_range_indicator_color</item>
+        <item name="circleSize">@dimen/range_picker_circle_size</item>
+    </style>
+</resources>

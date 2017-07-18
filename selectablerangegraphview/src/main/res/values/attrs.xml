@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalDraggableView">
+        <attr name="overdraggable" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="DragCircle">
+        <attr name="circleState" format="enum">
+            <enum name="start" value="0"/>
+            <enum name="end" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SelectableRangeGraphView">
+        <attr name="selectedPlotColor" format="color"/>
+        <attr name="unselectedPlotColor" format="color"/>
+        <attr name="circleDrawable" format="reference"/>
+        <attr name="selectedRangeColor" format="color"/>
+        <attr name="unselectedRangeColor" format="color"/>
+        <attr name="circleSize" format="dimension"/>
+    </declare-styleable>
+</resources>
